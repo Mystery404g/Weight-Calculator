@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://unsplash.com/photos/HMyZbwdlezU'); /* Unsplash shareable link */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Increase transparency for better text visibility */
+  color: black; /* Default text color for most elements */
+}
+
+h1, select, input, #result {
+  color: black; /* Text color for specific elements */
+}
+
+h1 {
+  text-align: center;
+}
+
+select, input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#result {
+  font-weight: bold;
+}
+
+#youtubeButton {
+  background-color: red;
+  color: white; /* White text color for the YouTube button */
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
